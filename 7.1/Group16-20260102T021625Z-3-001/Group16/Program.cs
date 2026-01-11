@@ -196,7 +196,7 @@ namespace Group16
                     SUPPLIER sup = seekSupplier(supplierName);
 
                     // Handle nullable supplierSku
-                    int supplierSku = 0;
+                    int? supplierSku = null;
                     if (rdr.GetValue(4) != DBNull.Value)
                     {
                         supplierSku = int.Parse(rdr.GetValue(4).ToString());

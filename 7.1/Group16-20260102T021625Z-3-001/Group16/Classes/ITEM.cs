@@ -26,7 +26,7 @@ namespace Group16
                     string name,
                     string description,
                     string unitOfMeasure,
-                    int supplierSku,
+                    int? supplierSku,
                     decimal pricePerUnit,
                     SUPPLIER supplier,
                     bool isActive,
@@ -57,7 +57,7 @@ namespace Group16
         public string get_name() { return this.name; }
         public string get_description() { return this.description; }
         public string get_unitOfMeasure() { return this.unitOfMeasure; }
-        public int get_supplierSku() { return this.supplierSku; }
+        public int? get_supplierSku() { return this.supplierSku; }
         public decimal get_pricePerUnit() { return this.pricePerUnit; }
         public SUPPLIER get_supplier() { return this.supplier; }
         public bool get_isActive() { return this.isActive; }
@@ -66,7 +66,7 @@ namespace Group16
         public void set_name(string name) { this.name = name; }
         public void set_description(string description) { this.description = description; }
         public void set_unitOfMeasure(string unit) { this.unitOfMeasure = unit; }
-        public void set_supplierSku(int supplierSku) { this.supplierSku = supplierSku; }
+        public void set_supplierSku(int? supplierSku) { this.supplierSku = supplierSku; }
         public void set_pricePerUnit(decimal price) { this.pricePerUnit = price; }
         public void set_isActive(bool active) { this.isActive = active; }
 
