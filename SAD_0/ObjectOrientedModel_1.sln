@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientedModel_1", "ObjectOrientedModel_1.csproj", "{A8CBCF61-ECC3-4FD2-A3B7-01A3459D4B9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A8CBCF61-ECC3-4FD2-A3B7-01A3459D4B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8CBCF61-ECC3-4FD2-A3B7-01A3459D4B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8CBCF61-ECC3-4FD2-A3B7-01A3459D4B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8CBCF61-ECC3-4FD2-A3B7-01A3459D4B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

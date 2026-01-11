@@ -1,0 +1,171 @@
+/* =============================================================
+   PROCEDURES FOR ALL TABLES (Select, Insert, Update)
+   Using CREATE OR ALTER for safe re-runs
+   ============================================================= */
+
+-- 1. Roles
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Roles_Select AS SELECT * FROM dbo.Roles;
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Roles_Insert @RoleName VARCHAR(50) AS INSERT INTO dbo.Roles(RoleName) VALUES(@RoleName);
+GO
+
+-- 2. OrderStatuses
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_OrderStatuses_Select AS SELECT * FROM dbo.OrderStatuses;
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_OrderStatuses_Insert @StatusName VARCHAR(60) AS INSERT INTO dbo.OrderStatuses(StatusName) VALUES(@StatusName);
+GO
+
+-- 3. SupplierActivities
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_SupplierActivities_Select AS SELECT * FROM dbo.SupplierActivities;
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_SupplierActivities_Insert @ActivityName VARCHAR(50) AS INSERT INTO dbo.SupplierActivities(ActivityName) VALUES(@ActivityName);
+GO
+
+-- 4. DaysInWeek
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_DaysInWeek_Select AS SELECT * FROM dbo.DaysInWeek;
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_DaysInWeek_Insert @DayName VARCHAR(20) AS INSERT INTO dbo.DaysInWeek(DayName) VALUES(@DayName);
+GO
+
+-- 5. Regions
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Regions_Select AS SELECT * FROM dbo.Regions;
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Regions_Insert @Name VARCHAR(100) AS INSERT INTO dbo.Regions([name]) VALUES(@Name);
+GO
+
+-- 6. Sites
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Sites_Select AS SELECT * FROM dbo.Sites;
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Sites_Insert 
+    @name VARCHAR(100), @address VARCHAR(200), @contactNumber VARCHAR(50), @isActive BIT, @contactPerson VARCHAR(100), @regionName VARCHAR(100)
+AS INSERT INTO dbo.Sites([name], [address], contactNumber, isActive, contactPerson, regionName) VALUES (@name, @address, @contactNumber, @isActive, @contactPerson, @regionName);
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Sites_Update
+    @name VARCHAR(100), @address VARCHAR(200), @contactNumber VARCHAR(50), @isActive BIT, @contactPerson VARCHAR(100), @regionName VARCHAR(100)
+AS UPDATE dbo.Sites SET [address] = @address, contactNumber = @contactNumber, isActive = @isActive, contactPerson = @contactPerson, regionName = @regionName WHERE [name] = @name;
+GO
+
+-- 7. Users
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Users_Select AS SELECT * FROM dbo.[Users];
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Users_Insert
+    @userName VARCHAR(50), @Password VARCHAR(255), @email VARCHAR(100), @isActive BIT, @roleName VARCHAR(50)
+AS INSERT INTO dbo.[Users](userName, [Password], email, isActive, roleName) VALUES (@userName, @Password, @email, @isActive, @roleName);
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Users_Update
+    @userName VARCHAR(50), @Password VARCHAR(255), @email VARCHAR(100), @isActive BIT, @roleName VARCHAR(50)
+AS UPDATE dbo.[Users] SET [Password] = @Password, email = @email, isActive = @isActive, roleName = @roleName WHERE userName = @userName;
+GO
+
+-- 8. UsersSites
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_UsersSites_Select AS SELECT * FROM dbo.UsersSites;
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_UsersSites_Insert @userName VARCHAR(50), @siteName VARCHAR(100) AS INSERT INTO dbo.UsersSites(userName, siteName) VALUES (@userName, @siteName);
+GO
+
+-- 9. SupplierStatuses
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_SupplierStatuses_Select AS SELECT * FROM dbo.SupplierStatuses;
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_SupplierStatuses_Insert @StatusName VARCHAR(50) AS INSERT INTO dbo.SupplierStatuses(StatusName) VALUES (@StatusName);
+GO
+
+-- 10. Suppliers
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Suppliers_Select AS SELECT * FROM dbo.Suppliers;
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Suppliers_Insert
+    @supplierName VARCHAR(100), @status VARCHAR(50), @fieldOfActivity VARCHAR(50), @email VARCHAR(100), @phoneNumber VARCHAR(50), @minAmount DECIMAL(20,10), @isActive BIT
+AS INSERT INTO dbo.Suppliers(supplierName, [status], fieldOfActivity, email, phoneNumber, minimumOrderAmount, isActive) VALUES (@supplierName, @status, @fieldOfActivity, @email, @phoneNumber, @minAmount, @isActive);
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Suppliers_Update
+    @supplierName VARCHAR(100), @status VARCHAR(50), @fieldOfActivity VARCHAR(50), @email VARCHAR(100), @phoneNumber VARCHAR(50), @minAmount DECIMAL(20,10), @isActive BIT
+AS UPDATE dbo.Suppliers SET [status] = @status, fieldOfActivity = @fieldOfActivity, email = @email, phoneNumber = @phoneNumber, minimumOrderAmount = @minAmount, isActive = @isActive WHERE supplierName = @supplierName;
+GO
+
+-- 11. Shippings
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Shippings_Select
+AS
+BEGIN
+    SELECT shippingID, supplier, region, [day], [hours] FROM dbo.Shippings;
+END
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Shippings_Insert
+    @shippingID INT, @supplier VARCHAR(100), @region VARCHAR(100), @day VARCHAR(20), @hours VARCHAR(50)
+AS
+BEGIN
+    INSERT INTO dbo.Shippings (shippingID, supplier, region, [day], [hours]) VALUES (@shippingID, @supplier, @region, @day, @hours);
+END
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Shippings_Update
+    @shippingID INT, @supplier VARCHAR(100), @region VARCHAR(100), @day VARCHAR(20), @hours VARCHAR(50)
+AS
+BEGIN
+    UPDATE dbo.Shippings SET supplier = @supplier, region = @region, [day] = @day, [hours] = @hours WHERE shippingID = @shippingID;
+END
+GO
+
+-- 12. Items
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Items_Select AS SELECT * FROM dbo.Items;
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Items_Insert
+    @internalSku INT, @name VARCHAR(100), @description VARCHAR(300), @uom VARCHAR(50), @supplierSku INT, @price DECIMAL(20,10), @supplierName VARCHAR(100), @IsActive BIT
+AS INSERT INTO dbo.Items(internalSku, [name], [description], unitOfMeasure, supplierSku, pricePerUnit, supplierName, IsActive) VALUES (@internalSku, @name, @description, @uom, @supplierSku, @price, @supplierName, @IsActive);
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Items_Update
+    @internalSku INT, @name VARCHAR(100), @description VARCHAR(300), @uom VARCHAR(50), @supplierSku INT, @price DECIMAL(20,10), @IsActive BIT
+AS UPDATE dbo.Items SET [name] = @name, [description] = @description, unitOfMeasure = @uom, supplierSku = @supplierSku, pricePerUnit = @price, IsActive = @IsActive WHERE internalSku = @internalSku;
+GO
+
+-- 13. SiteItemStocks
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_SiteItemStocks_Select AS SELECT * FROM dbo.SiteItemStocks;
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_SiteItemStocks_Insert
+    @siteName VARCHAR(100), @internalSku INT, @minQty INT, @currQty INT
+AS INSERT INTO dbo.SiteItemStocks(siteName, internalSku, minimumQuantity, currentQuantity) VALUES (@siteName, @internalSku, @minQty, @currQty);
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_SiteItemStocks_Update
+    @siteName VARCHAR(100), @internalSku INT, @minQty INT, @currQty INT
+AS UPDATE dbo.SiteItemStocks SET minimumQuantity = @minQty, currentQuantity = @currQty WHERE siteName = @siteName AND internalSku = @internalSku;
+GO
+
+-- 14. Orders
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Orders_Select AS SELECT * FROM dbo.Orders;
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Orders_Insert 
+    @orderID INT, @creationDate DATE, @status VARCHAR(60), @totalPrice DECIMAL(20,10), @deliveryDate DATE, @siteName VARCHAR(100), @supplierName VARCHAR(100), @openedBy VARCHAR(50) 
+AS 
+BEGIN 
+    INSERT INTO dbo.Orders (orderID, creationDate, [status], totalPrice, deliveryDate, siteName, supplierName, openedBy) 
+    VALUES (@orderID, @creationDate, @status, @totalPrice, @deliveryDate, @siteName, @supplierName, @openedBy); 
+END
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_Orders_Update
+    @orderID INT, @status VARCHAR(60), @totalPrice DECIMAL(20,10), @deliveryDate DATE
+AS UPDATE dbo.Orders SET [status] = @status, totalPrice = @totalPrice, deliveryDate = @deliveryDate WHERE orderID = @orderID;
+GO
+
+-- 15. ItemsInOrders
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_ItemsInOrders_Select AS SELECT * FROM dbo.ItemsInOrders;
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_ItemsInOrders_Insert
+    @orderID INT, @internalSku INT, @quantity INT, @price DECIMAL(20,10)
+AS INSERT INTO dbo.ItemsInOrders(orderID, internalSku, quantityInOrder, pricePerUnit) VALUES (@orderID, @internalSku, @quantity, @price);
+GO
+CREATE OR ALTER PROCEDURE dbo.sp_ItemsInOrders_Update
+    @orderID INT, @internalSku INT, @quantity INT, @price DECIMAL(20,10)
+AS UPDATE dbo.ItemsInOrders SET quantityInOrder = @quantity, pricePerUnit = @price WHERE orderID = @orderID AND internalSku = @internalSku;
+GO

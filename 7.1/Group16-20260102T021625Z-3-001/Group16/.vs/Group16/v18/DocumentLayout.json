@@ -1,0 +1,403 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\classes\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:classes\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\classes\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:classes\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|c:\\users\\avira\\desktop\\7.1\\group16-20260102t021625z-3-001\\group16\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\classes\\daysinweek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:classes\\daysinweek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\classes\\item_in_order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:classes\\item_in_order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\classes\\item_in_site_stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:classes\\item_in_site_stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\classes\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:classes\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\classes\\order_status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:classes\\order_status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\classes\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:classes\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\classes\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:classes\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\classes\\shipping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:classes\\shipping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\classes\\site.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:classes\\site.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\classes\\supplier_activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:classes\\supplier_activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\classes\\supplier_status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:classes\\supplier_status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\sql_con.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:sql_con.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\manageitemsopeningscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:manageitemsopeningscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\manageitemsopeningscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:manageitemsopeningscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\manageitemsopeningscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:manageitemsopeningscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\manageitemsopeningscreen.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:manageitemsopeningscreen.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\homescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:homescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\createorderopeningscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:createorderopeningscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\setminimumstockopeningscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3324CFA-054F-4834-AB68-7695F7FF7FCF}|Group16.csproj|solutionrelative:setminimumstockopeningscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 165,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "REGION.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\REGION.cs",
+              "RelativeDocumentMoniker": "Classes\\REGION.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\REGION.cs",
+              "RelativeToolTip": "Classes\\REGION.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ORDER_STATUS.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\ORDER_STATUS.cs",
+              "RelativeDocumentMoniker": "Classes\\ORDER_STATUS.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\ORDER_STATUS.cs",
+              "RelativeToolTip": "Classes\\ORDER_STATUS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ORDER.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\ORDER.cs",
+              "RelativeDocumentMoniker": "Classes\\ORDER.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\ORDER.cs",
+              "RelativeToolTip": "Classes\\ORDER.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITEM_IN_SITE_STOCK.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\ITEM_IN_SITE_STOCK.cs",
+              "RelativeDocumentMoniker": "Classes\\ITEM_IN_SITE_STOCK.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\ITEM_IN_SITE_STOCK.cs",
+              "RelativeToolTip": "Classes\\ITEM_IN_SITE_STOCK.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAiwEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITEM_IN_ORDER.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\ITEM_IN_ORDER.cs",
+              "RelativeDocumentMoniker": "Classes\\ITEM_IN_ORDER.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\ITEM_IN_ORDER.cs",
+              "RelativeToolTip": "Classes\\ITEM_IN_ORDER.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ITEM.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\ITEM.cs",
+              "RelativeDocumentMoniker": "Classes\\ITEM.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\ITEM.cs",
+              "RelativeToolTip": "Classes\\ITEM.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAIAgwHcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DAYSINWEEK.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\DAYSINWEEK.cs",
+              "RelativeDocumentMoniker": "Classes\\DAYSINWEEK.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\DAYSINWEEK.cs",
+              "RelativeToolTip": "Classes\\DAYSINWEEK.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SUPPLIER.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\SUPPLIER.cs",
+              "RelativeDocumentMoniker": "Classes\\SUPPLIER.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\SUPPLIER.cs",
+              "RelativeToolTip": "Classes\\SUPPLIER.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwFYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAqwLEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ROLE.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\ROLE.cs",
+              "RelativeDocumentMoniker": "Classes\\ROLE.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\ROLE.cs",
+              "RelativeToolTip": "Classes\\ROLE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SHIPPING.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\SHIPPING.cs",
+              "RelativeDocumentMoniker": "Classes\\SHIPPING.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\SHIPPING.cs",
+              "RelativeToolTip": "Classes\\SHIPPING.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA4wEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T13:19:33.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SITE.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\SITE.cs",
+              "RelativeDocumentMoniker": "Classes\\SITE.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\SITE.cs",
+              "RelativeToolTip": "Classes\\SITE.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAA7wFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SUPPLIER_ACTIVITY.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\SUPPLIER_ACTIVITY.cs",
+              "RelativeDocumentMoniker": "Classes\\SUPPLIER_ACTIVITY.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\SUPPLIER_ACTIVITY.cs",
+              "RelativeToolTip": "Classes\\SUPPLIER_ACTIVITY.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SUPPLIER_STATUS.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\SUPPLIER_STATUS.cs",
+              "RelativeDocumentMoniker": "Classes\\SUPPLIER_STATUS.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\SUPPLIER_STATUS.cs",
+              "RelativeToolTip": "Classes\\SUPPLIER_STATUS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "USER.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\USER.cs",
+              "RelativeDocumentMoniker": "Classes\\USER.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\Classes\\USER.cs",
+              "RelativeToolTip": "Classes\\USER.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAswGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SQL_CON.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\SQL_CON.cs",
+              "RelativeDocumentMoniker": "SQL_CON.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\SQL_CON.cs",
+              "RelativeToolTip": "SQL_CON.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManageItemsOpeningScreen.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\ManageItemsOpeningScreen.cs",
+              "RelativeDocumentMoniker": "ManageItemsOpeningScreen.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\ManageItemsOpeningScreen.cs",
+              "RelativeToolTip": "ManageItemsOpeningScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ManageItemsOpeningScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\ManageItemsOpeningScreen.cs",
+              "RelativeDocumentMoniker": "ManageItemsOpeningScreen.cs",
+              "ToolTip": "C:\\Users\\avira\\Downloads\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\ManageItemsOpeningScreen.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\ManageItemsOpeningScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ManageItemsOpeningScreen.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\ManageItemsOpeningScreen.Designer.cs",
+              "RelativeDocumentMoniker": "ManageItemsOpeningScreen.Designer.cs",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\ManageItemsOpeningScreen.Designer.cs",
+              "RelativeToolTip": "ManageItemsOpeningScreen.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:52:05.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ManageItemsOpeningScreen.resx",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\ManageItemsOpeningScreen.resx",
+              "RelativeDocumentMoniker": "ManageItemsOpeningScreen.resx",
+              "ToolTip": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\ManageItemsOpeningScreen.resx",
+              "RelativeToolTip": "ManageItemsOpeningScreen.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-01-07T16:52:05.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SetMinimumStockOpeningScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\SetMinimumStockOpeningScreen.cs",
+              "RelativeDocumentMoniker": "SetMinimumStockOpeningScreen.cs",
+              "ToolTip": "C:\\Users\\benezrae\\Downloads\\6.1.26\\Group16-20260102T021625Z-3-001\\Group16\\SetMinimumStockOpeningScreen.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\benezrae\\Downloads\\6.1.26\\Group16-20260102T021625Z-3-001\\Group16\\SetMinimumStockOpeningScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-01-07T16:52:05.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateOrderOpeningScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\CreateOrderOpeningScreen.cs",
+              "RelativeDocumentMoniker": "CreateOrderOpeningScreen.cs",
+              "ToolTip": "C:\\Users\\benezrae\\Downloads\\6.1.26\\Group16-20260102T021625Z-3-001\\Group16\\CreateOrderOpeningScreen.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\benezrae\\Downloads\\6.1.26\\Group16-20260102T021625Z-3-001\\Group16\\CreateOrderOpeningScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-01-07T16:52:05.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\avira\\Desktop\\7.1\\Group16-20260102T021625Z-3-001\\Group16\\HomeScreen.cs",
+              "RelativeDocumentMoniker": "HomeScreen.cs",
+              "ToolTip": "C:\\Users\\benezrae\\Downloads\\6.1.26\\Group16-20260102T021625Z-3-001\\Group16\\HomeScreen.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\benezrae\\Downloads\\6.1.26\\Group16-20260102T021625Z-3-001\\Group16\\HomeScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-01-07T16:52:05.328Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

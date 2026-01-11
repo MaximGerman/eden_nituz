@@ -1,0 +1,218 @@
+/* ========== LOOKUP / ENUM TABLES ========== */
+
+CREATE TABLE dbo.Roles (
+    RoleName VARCHAR(50) PRIMARY KEY
+);
+
+INSERT INTO dbo.Roles(RoleName) VALUES
+('ERP Coordinator'),
+('Purchasing Coordinator'),
+('Warehouse Worker'),
+('System Manager');
+
+
+CREATE TABLE dbo.OrderStatuses (
+    StatusName VARCHAR(60) PRIMARY KEY
+);
+
+INSERT INTO dbo.OrderStatuses(StatusName) VALUES
+('Editable'),
+('Waiting for supplier answer'),
+('Canceled'),
+('Shipped'),
+('In reception-arrived'),
+('In reception-with exceptions'),
+('In reception-intact'),
+('Archive');
+
+CREATE TABLE dbo.SupplierActivities (
+    ActivityName VARCHAR(50) PRIMARY KEY
+);
+
+INSERT INTO dbo.SupplierActivities(ActivityName) VALUES
+('Dairy Product'),
+('Meat Product'),
+('Dry Good'),
+('Fish');
+
+CREATE TABLE dbo.DaysInWeek (
+    DayName VARCHAR(20) PRIMARY KEY
+);
+
+INSERT INTO dbo.DaysInWeek(DayName) VALUES
+('Sunday'), ('Monday'), ('Tuesday'), ('Wednesday'),
+('Thursday'), ('Friday'), ('Saturday');
+
+
+/* ========== CORE TABLES ========== */
+
+CREATE TABLE dbo.Regions (
+    [name] VARCHAR(100) PRIMARY KEY
+);
+
+CREATE TABLE dbo.Sites (
+    [name] VARCHAR(100) PRIMARY KEY,
+    [address] VARCHAR(200) NOT NULL,
+    contactNumber VARCHAR(50) NOT NULL,
+    isActive BIT NOT NULL,
+    contactPerson VARCHAR(100) NULL,
+    regionName VARCHAR(100) NOT NULL,
+
+    CONSTRAINT FK_Sites_dbo_Regions
+        FOREIGN KEY (regionName) REFERENCES dbo.Regions([name])
+);
+
+CREATE TABLE dbo.[Users] (
+    userName VARCHAR(50) PRIMARY KEY,
+    [Password] VARCHAR(255) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    isActive BIT NOT NULL DEFAULT 1,
+    roleName VARCHAR(50) NOT NULL,
+
+    CONSTRAINT FK_Users_dbo_Roles
+        FOREIGN KEY (roleName) REFERENCES dbo.Roles(RoleName)
+);
+
+/* User <-> Site : "works with" many-to-many */
+CREATE TABLE dbo.UsersSites (
+    userName VARCHAR(50) NOT NULL,
+    siteName VARCHAR(100) NOT NULL,
+
+    CONSTRAINT PK_UsersSites PRIMARY KEY (userName, siteName),
+
+    CONSTRAINT FK_UsersSites_Users
+        FOREIGN KEY (userName) REFERENCES dbo.[Users](userName),
+
+    CONSTRAINT FK_UsersSites_Sites
+        FOREIGN KEY (siteName) REFERENCES dbo.Sites([name])
+);
+
+CREATE TABLE dbo.SupplierStatuses (
+    StatusName VARCHAR(50) PRIMARY KEY
+);
+
+INSERT INTO dbo.SupplierStatuses (StatusName) VALUES
+
+
+('Candidate'),
+('Awaiting_approval'),
+('On_hold'),
+('Approved_Operative'),
+('Approved_Preferred'),
+('Approved_On_Probation'),
+('Archived');
+
+
+
+CREATE TABLE dbo.Suppliers (
+    supplierName VARCHAR(100) PRIMARY KEY,
+    [status] VARCHAR(50) NOT NULL,
+    fieldOfActivity VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NULL,
+    phoneNumber VARCHAR(50) NULL,
+    minimumOrderAmount DECIMAL(20,10) NULL,
+    isActive BIT NOT NULL,
+
+     CONSTRAINT FK_Suppliers_SupplierStatuses
+        FOREIGN KEY ([status]) REFERENCES dbo.SupplierStatuses(StatusName),
+
+    CONSTRAINT FK_Suppliers_dbo_SupplierActivities
+        FOREIGN KEY (fieldOfActivity) REFERENCES dbo.SupplierActivities(ActivityName)
+);
+
+/* Shippings Table - Updated Primary Key name to shippingID */
+CREATE TABLE dbo.Shippings (
+    shippingID INT NOT NULL, -- המפתח הראשי המעודכן
+    supplier VARCHAR(100) NOT NULL,
+    region VARCHAR(100) NOT NULL,
+    [day] VARCHAR(20) NOT NULL,
+    [hours] VARCHAR(50) NULL,
+
+    CONSTRAINT PK_Shippings PRIMARY KEY (shippingID),
+
+    CONSTRAINT FK_Shippings_Suppliers
+        FOREIGN KEY (supplier) REFERENCES dbo.Suppliers(supplierName),
+
+    CONSTRAINT FK_Shippings_Regions
+        FOREIGN KEY (region) REFERENCES dbo.Regions([name]),
+
+    CONSTRAINT FK_Shippings_DaysInWeek
+        FOREIGN KEY ([day]) REFERENCES dbo.DaysInWeek(DayName)
+);
+
+CREATE TABLE dbo.Items (
+    internalSku INT PRIMARY KEY,
+    [name] VARCHAR(100) NOT NULL,
+    [description] VARCHAR(300) NULL,
+    unitOfMeasure VARCHAR(50) NULL,
+    supplierSku INT NULL,
+    pricePerUnit DECIMAL(20,10) NOT NULL,
+    supplierName VARCHAR(100) NOT NULL,
+
+    CONSTRAINT FK_Items_Suppliers
+        FOREIGN KEY (supplierName) REFERENCES dbo.Suppliers(supplierName)
+);
+
+/* Site <-> Item stock */
+CREATE TABLE dbo.SiteItemStocks (
+    siteName VARCHAR(100) NOT NULL,
+    internalSku INT NOT NULL,
+    minimumQuantity INT NOT NULL,
+    currentQuantity INT NOT NULL,
+
+    CONSTRAINT PK_SiteItemStocks PRIMARY KEY (siteName, internalSku),
+
+    CONSTRAINT FK_SiteItemStocks_Sites
+        FOREIGN KEY (siteName) REFERENCES dbo.Sites([name]),
+
+    CONSTRAINT FK_SiteItemStocks_Items
+        FOREIGN KEY (internalSku) REFERENCES dbo.Items(internalSku)
+);
+
+/* Orders belong to a specific Site (your clarification #3) */
+
+CREATE TABLE dbo.Orders (
+    orderID INT PRIMARY KEY,
+    creationDate DATE NOT NULL,
+    [status] VARCHAR(60) NOT NULL,
+    totalPrice DECIMAL(20,10) NOT NULL,
+    deliveryDate DATE NULL,
+    siteName VARCHAR(100) NOT NULL,
+    supplierName VARCHAR(100) NOT NULL, -- העמודה החדשה
+    openedBy VARCHAR(50) NOT NULL,      -- העמודה החדשה
+
+    CONSTRAINT FK_Orders_dbo_OrderStatuses
+        FOREIGN KEY ([status]) REFERENCES dbo.OrderStatuses(StatusName),
+    CONSTRAINT FK_Orders_Sites
+        FOREIGN KEY (siteName) REFERENCES dbo.Sites([name]),
+    CONSTRAINT FK_Orders_Suppliers
+        FOREIGN KEY (supplierName) REFERENCES dbo.Suppliers(supplierName),
+    CONSTRAINT FK_Orders_Users
+        FOREIGN KEY (openedBy) REFERENCES dbo.[Users](userName)
+);
+
+
+
+/* ItemsInOrder (association Order <-> Item) */
+CREATE TABLE dbo.ItemsInOrders (
+    orderID INT NOT NULL,
+    internalSku INT NOT NULL,
+    quantityInOrder INT NOT NULL,
+    pricePerUnit DECIMAL(20,10) NOT NULL,
+
+    CONSTRAINT PK_ItemsInOrders PRIMARY KEY (orderID, internalSku),
+
+    CONSTRAINT FK_ItemsInOrders_Orders
+        FOREIGN KEY (orderID) REFERENCES dbo.Orders(orderID),
+
+    CONSTRAINT FK_ItemsInOrders_Items
+        FOREIGN KEY (internalSku) REFERENCES dbo.Items(internalSku)
+);
+
+ALTER TABLE dbo.Items
+ADD IsActive bit not null default 1;
+
+ALTER TABLE dbo.Suppliers
+ADD CONSTRAINT DF_Suppliers_MinimumOrderAmount
+DEFAULT (0) FOR minimumOrderAmount;
+GO

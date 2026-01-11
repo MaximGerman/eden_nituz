@@ -1,0 +1,74 @@
+C:\Users\TEMP.BGU-USERS\Desktop\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\bin\Debug\Example_Project.exe.config
+C:\Users\TEMP.BGU-USERS\Desktop\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\TEMP.BGU-USERS\Desktop\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\Example_Project.Properties.Resources.resources
+C:\Users\TEMP.BGU-USERS\Desktop\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\TEMP.BGU-USERS\Desktop\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\TEMP.BGU-USERS\Desktop\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\bin\Debug\Example_Project.exe
+C:\Users\TEMP.BGU-USERS\Desktop\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\bin\Debug\Example_Project.pdb
+C:\Users\TEMP.BGU-USERS\Desktop\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\Example_Project.exe
+C:\Users\TEMP.BGU-USERS\Desktop\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\Example_Project.pdb
+C:\Users\TEMP.BGU-USERS\Desktop\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\Example_Project.Form1.resources
+S:\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\bin\Debug\Example_Project.exe.config
+S:\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\Example_Project.exe
+S:\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\Example_Project.pdb
+S:\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\bin\Debug\Example_Project.exe
+S:\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\bin\Debug\Example_Project.pdb
+S:\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\ResolveAssemblyReference.cache
+S:\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\Example_Project.Form1.resources
+S:\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\Example_Project.Properties.Resources.resources
+S:\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\GenerateResource.read.1.tlog
+S:\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\GenerateResource.write.1.tlog
+S:\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\Example_Project.main_form.resources
+S:\ניתוצ תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\Example_Project.form2.resources
+C:\Users\ranalm\Dropbox\קורסי הוראה\SA&D Team\תרגולים תשעה\תרגול 9-10 תכנות\SAD_0\Example_Project\Example_Project\bin\Debug\Example_Project.exe.config
+C:\Users\ranalm\Dropbox\קורסי הוראה\SA&D Team\תרגולים תשעה\תרגול 9-10 תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\Example_Project.exe
+C:\Users\ranalm\Dropbox\קורסי הוראה\SA&D Team\תרגולים תשעה\תרגול 9-10 תכנות\SAD_0\Example_Project\Example_Project\obj\x86\Debug\Example_Project.pdb
+C:\Users\shayye\Desktop\SAD_0\SAD_0\example_project\Example_Project\bin\Debug\Example_Project.exe.config
+C:\Users\shayye\Desktop\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.exe
+C:\Users\shayye\Desktop\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.pdb
+G:\תרגול ניתוצ תכנות\SAD_0\SAD_0\example_project\Example_Project\bin\Debug\Example_Project.exe.config
+G:\תרגול ניתוצ תכנות\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.exe
+G:\תרגול ניתוצ תכנות\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.pdb
+G:\תרגול ניתוצ תכנות\SAD_0\SAD_0\example_project\Example_Project\bin\Debug\Example_Project.exe
+G:\תרגול ניתוצ תכנות\SAD_0\SAD_0\example_project\Example_Project\bin\Debug\Example_Project.pdb
+G:\תרגול ניתוצ תכנות\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.csprojResolveAssemblyReference.cache
+G:\תרגול ניתוצ תכנות\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.Form1.resources
+G:\תרגול ניתוצ תכנות\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.form2.resources
+G:\תרגול ניתוצ תכנות\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.main_form.resources
+G:\תרגול ניתוצ תכנות\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.Properties.Resources.resources
+G:\תרגול ניתוצ תכנות\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.csproj.GenerateResource.Cache
+F:\ניתוצ תרגול תכנות\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\Example_Project\bin\Debug\Example_Project.exe.config
+F:\ניתוצ תרגול תכנות\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.exe
+F:\ניתוצ תרגול תכנות\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.pdb
+F:\ניתוצ תרגול תכנות\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\Example_Project\bin\Debug\Example_Project.exe
+F:\ניתוצ תרגול תכנות\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\Example_Project\bin\Debug\Example_Project.pdb
+F:\ניתוצ תרגול תכנות\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.csprojResolveAssemblyReference.cache
+F:\ניתוצ תרגול תכנות\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.Form1.resources
+F:\ניתוצ תרגול תכנות\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.form2.resources
+F:\ניתוצ תרגול תכנות\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.main_form.resources
+F:\ניתוצ תרגול תכנות\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.Properties.Resources.resources
+F:\ניתוצ תרגול תכנות\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.csproj.GenerateResource.Cache
+D:\אוניברסיטת בן גוריון\שנה ד\תרגולים שאני מעבירה\ניתוץ\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\example_project\bin\Debug\Example_Project.exe.config
+D:\אוניברסיטת בן גוריון\שנה ד\תרגולים שאני מעבירה\ניתוץ\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\example_project\bin\Debug\Example_Project.exe
+D:\אוניברסיטת בן גוריון\שנה ד\תרגולים שאני מעבירה\ניתוץ\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\example_project\bin\Debug\Example_Project.pdb
+D:\אוניברסיטת בן גוריון\שנה ד\תרגולים שאני מעבירה\ניתוץ\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\example_project\obj\x86\Debug\Example_Project.csprojResolveAssemblyReference.cache
+D:\אוניברסיטת בן גוריון\שנה ד\תרגולים שאני מעבירה\ניתוץ\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\example_project\obj\x86\Debug\Example_Project.Form1.resources
+D:\אוניברסיטת בן גוריון\שנה ד\תרגולים שאני מעבירה\ניתוץ\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\example_project\obj\x86\Debug\Example_Project.form2.resources
+D:\אוניברסיטת בן גוריון\שנה ד\תרגולים שאני מעבירה\ניתוץ\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\example_project\obj\x86\Debug\Example_Project.main_form.resources
+D:\אוניברסיטת בן גוריון\שנה ד\תרגולים שאני מעבירה\ניתוץ\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\example_project\obj\x86\Debug\Example_Project.Properties.Resources.resources
+D:\אוניברסיטת בן גוריון\שנה ד\תרגולים שאני מעבירה\ניתוץ\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\example_project\obj\x86\Debug\Example_Project.csproj.GenerateResource.Cache
+D:\אוניברסיטת בן גוריון\שנה ד\תרגולים שאני מעבירה\ניתוץ\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\example_project\obj\x86\Debug\Example_Project.csproj.CoreCompileInputs.cache
+D:\אוניברסיטת בן גוריון\שנה ד\תרגולים שאני מעבירה\ניתוץ\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\example_project\obj\x86\Debug\Example_Project.exe
+D:\אוניברסיטת בן גוריון\שנה ד\תרגולים שאני מעבירה\ניתוץ\פרוייקט לדוגמא גירסה חדשה\SAD_0\SAD_0\example_project\example_project\obj\x86\Debug\Example_Project.pdb
+C:\Users\markfel\Desktop\SAD_0\example_project\Example_Project\bin\Debug\Example_Project.exe.config
+C:\Users\markfel\Desktop\SAD_0\example_project\Example_Project\bin\Debug\Example_Project.exe
+C:\Users\markfel\Desktop\SAD_0\example_project\Example_Project\bin\Debug\Example_Project.pdb
+C:\Users\markfel\Desktop\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.csproj.AssemblyReference.cache
+C:\Users\markfel\Desktop\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.Form1.resources
+C:\Users\markfel\Desktop\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.form2.resources
+C:\Users\markfel\Desktop\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.main_form.resources
+C:\Users\markfel\Desktop\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.Properties.Resources.resources
+C:\Users\markfel\Desktop\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.csproj.GenerateResource.cache
+C:\Users\markfel\Desktop\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.csproj.CoreCompileInputs.cache
+C:\Users\markfel\Desktop\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.exe
+C:\Users\markfel\Desktop\SAD_0\example_project\Example_Project\obj\x86\Debug\Example_Project.pdb
